@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background-color: rgb(233, 221, 221);
+    background-color: rgb(255, 255, 255);
 }
 .q{
     text-align: center;
@@ -50,6 +50,10 @@ body{
 .ex:hover{
     text-shadow: black 4px 4px 5px ;
 }
+.im{
+    width: 1519px;
+    height: 920px;
+}
 @media screen and (max-width: 930px) {
     .q{
         margin-top: -15px;
@@ -83,6 +87,11 @@ body{
         padding: 15px;
         padding-top: 12px;
         padding-bottom: 12px;
+    }
+    .im{
+        width: 410px;
+        height: 280px;
+        margin-top: 20%;
     }
     
 }
